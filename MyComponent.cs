@@ -1,17 +1,10 @@
 using CsWeb;
 
-public class MyComponent : Component
+public class Homepage : Component
 {
-    public object[] Properties;
-
-    public MyComponent(params object[] properties) : base(properties)
+    public Homepage()
     {
-        Properties = properties;
-    }
-
-    public override InterpolatedText Render()
-    {
-        return $"<p>{123}</p>";
+        
     }
 }
 

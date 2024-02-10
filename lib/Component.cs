@@ -1,11 +1,15 @@
+using CsWeb.Internal;
+
 namespace CsWeb
 {
-    public abstract class Component
+    public class Component
     {
-        protected Type test = typeof(Component);
+        delegate void E();
+        E P;
 
-        public Component(params object[] properties) { }
+        protected void C<D>() where D : Delegate
+        {
 
-        public abstract InterpolatedText Render();
+        }
     }
 }

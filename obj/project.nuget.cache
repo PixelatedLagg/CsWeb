@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ZOZ9Xnwp8tUUg/5nDwM3JRydUqJJn+U940RLHR6R/650NcRQEipxB96h34YxZOC1KGTPFvSK+1mSTPH1EilIZg==",
+  "dgSpecHash": "gDocKcuw6ZIN1+8Zb1p2KeRgJ+WcPCLDLJZSXKz46yLIpLO+w0m48AM8q9q9+GbYeqtXesn9szzLHTD/P63rug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pixil\\Desktop\\CsWeb\\CsWeb.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\William\\Desktop\\CsWeb\\CsWeb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\William\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\William\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\William\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\William\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }
