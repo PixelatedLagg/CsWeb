@@ -1,15 +1,15 @@
-using CsWeb.Internal;
 
 namespace CsWeb
 {
-    public class Component
+    public interface IComponent
     {
-        delegate void E();
-        E P;
+        ElementAttribute[] Attributes { get; set; }
+        public string Render();
 
-        protected void C<D>() where D : Delegate
+        public static IComponent operator +(IComponent component, ICollection<ElementAttribute> attributes)
         {
-
+            component.Attributes = [.. attributes];
+            return component;
         }
     }
 }
